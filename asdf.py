@@ -12,7 +12,7 @@ def main():
 			if computer == 1:
 				draw += 1
 				counter += 1
-				print("비겻습니다")
+				print("비겼습니다")
 			if computer == 2:
 				lose += 1
 				counter += 1
@@ -29,7 +29,7 @@ def main():
 			if computer == 2:
 				draw += 1
 				counter += 1
-				print("비겻습니다")
+				print("비겼습니다")
 			if computer ==3:
 				lose += 1
 				counter += 1
@@ -46,7 +46,7 @@ def main():
 			if computer == 3 :
 				draw += 1
 				counter += 1
-				print("비겻습니다")
+				print("비겼습니다")
 		if int(player)> 3 : 
 			print("ㅗ")
 		if int(player) < 1 :
