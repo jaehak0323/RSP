@@ -48,12 +48,12 @@ def main():
 				counter += 1
 				print("비겼습니다")
 		if int(player)> 3 : 
-			print("ㅗ")
+			print("제대로 된 숫자를 입력해 주세요")
 		if int(player) < 1 :
-			print("ㅗ")
-	print(win)
-	print(lose)
-	print(draw)
+			print("제대로 된 숫자를 입력해 주세요")
+	print("플레이어는 ",win,"번 승리하셨습니다.")
+	print("플레이어는 ",lose,"번 패배하셨습니다.")
+	print("플레이어는 ",draw,"번 비기셨습니다.")
 
 main()
 
