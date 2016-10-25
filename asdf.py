@@ -5,6 +5,7 @@ def main():
 	draw = 0
 	counter = 0
 	while counter <10 :
+		print("무엇을 낼 것인지 정하십시오.(1~3,1번:가위,2번:바위,3번:보)")
 		computer = random.randint(1,3)
 		player = input()
 		if int(player) == 1:
@@ -55,12 +56,4 @@ def main():
 	print(draw)
 
 main()
-
-
-
-
-
-
-
-
 
